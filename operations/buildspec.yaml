@@ -14,7 +14,7 @@ phases:
       - ln -s $(which docker) /usr/local/bin/com.docker.cli
   pre_build:
     commands:
-      - echo Logging in to Docker Hub...
+      - echo Logging in to Docker Hub Modificado desde GitHub...
       - docker login --username $DOCKERHUB_USERNAME --password $DOCKERHUB_PASSWORD
 
   build:
